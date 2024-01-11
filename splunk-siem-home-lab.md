@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the documentation and configuration files for my Splunk Home Lab.
+This is the most powerful home-lab focused on setting up Splunk SIEM and real-world use cases. If you’re interested to become SOC Analyst(Tier 1/2) , this lab will help you with SOC tools, rules, queries, apps and integration.
 
 ## Lab Architecture
 
@@ -22,19 +22,14 @@ This repository contains the documentation and configuration files for my Splunk
 
 Insert a diagram here to visualize the lab architecture.
 
-## Setup Instructions
+## Setting up Splunk 
 
-1. **Install Splunk Enterprise**
-   - Follow the [official installation guide](https://docs.splunk.com/Documentation/Splunk/latest/Installation/InstallonLinux).
+1. **Download Splunk Enterprise [FREE TRIAL 60 days] **
+   - Follow the [official installation guide](https://www.splunk.com/en_us/download/splunk-enterprise.html ).
 
-2. **Install Universal Forwarder**
-   - Follow the [official installation guide](https://docs.splunk.com/Documentation/Forwarder/latest/Forwarder/Installtheuniversalforwarder).
+2. **Download Splunk Security Essentials App [FREE] **
+   - Follow the [official installation guide](https://splunkbase.splunk.com/app/3435 ).
 
-3. **Configure Forwarder to Send Data**
-   - Edit `inputs.conf` to specify the data you want to forward.
-
-4. **Additional Configurations**
-   - Any other configurations needed for your specific use case.
 
 ## Sample Queries
 
