@@ -24,10 +24,10 @@ Insert a diagram here to visualize the lab architecture.
 
 ## Setting up Splunk 
 
-1. **Download Splunk Enterprise [FREE TRIAL 60 days] **
+1. Download Splunk Enterprise [FREE TRIAL 60 days] 
    - Follow the [official installation guide](https://www.splunk.com/en_us/download/splunk-enterprise.html ).
 
-2. **Download Splunk Security Essentials App [FREE] **
+2. Download Splunk Security Essentials App [FREE]
    - Follow the [official installation guide](https://splunkbase.splunk.com/app/3435 ).
 
 
