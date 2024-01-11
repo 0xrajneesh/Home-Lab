@@ -24,16 +24,17 @@ Insert a diagram here to visualize the lab architecture.
 
 ## Setting up Splunk 
 
-1. Download Splunk Enterprise [FREE TRIAL 60 days] 
-   - Follow the [official installation guide](https://www.splunk.com/en_us/download/splunk-enterprise.html ).
+📍Download Splunk Enterprise [FREE TRIAL 60 days] 
+   - [Download](https://www.splunk.com/en_us/download/splunk-enterprise.html ).
 
-2. Download Splunk Security Essentials App [FREE]
-   - Follow the [official installation guide](https://splunkbase.splunk.com/app/3435 ).
+📍Download Splunk Security Essentials App [FREE]
+   - [Download](https://splunkbase.splunk.com/app/3435 ).
 
 
-## Sample Queries
+## Sample Datasets
 
-Include sample Splunk queries to showcase the functionality of your lab.
+📍BOTS V2 Dataset [16.4 GB]. 
+   -[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set.tgz  ).
 
-```spl
-index=your_index sourcetype=your_sourcetype | stats count by field_name
+📍BOTS V2 Dataset(Attack Only) [3.2 GB] 
+   -[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz  ).
