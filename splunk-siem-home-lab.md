@@ -30,7 +30,7 @@ Insert a diagram here to visualize the lab architecture.
 
 📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz) BOTS V2 Dataset(Attack Only) [3.2 GB] 
 
-## 📁Use Cases
+## 📁Excercises
 📍 **Insider Threat detectio**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.
 
 📍 **Detecting Unauthoirized applications**: Leverage Splunk to monitor endpoint and network logs, promptly detecting and responding to the presence of unauthorized applications, bolstering security against potential risks.
