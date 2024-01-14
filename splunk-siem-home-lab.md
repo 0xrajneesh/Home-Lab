@@ -6,25 +6,25 @@ This is the most powerful home-lab focused on setting up Splunk SIEM and real-wo
 
 ## 📄Lab Architecture
 
-### 🧲Components
+### 👉Components
 
 1. **Splunk Enterprise**: Version X.X.X
 
 2. **Forwarder**: Version X.X.X
 
-### 🖼️Lab Diagram
+### 👉Lab Diagram
 
 Insert a diagram here to visualize the lab architecture.
 
 ## 🧑‍💻Setting up Lab
 
-### ⭐Setting up Splunk SIEM
+### 👉Setting up Splunk SIEM
 
 📍[Download](https://www.splunk.com/en_us/download/splunk-enterprise.html ) Splunk Enterprise [FREE TRIAL 60 days] .
 
-📍[Download](https://splunkbase.splunk.com/app/3435) Splunk Security Essentials App [FREE]
+📍[Download](https://splunkbase.splunk.com/app/3435) Splunk Security Essentials App
 
-### ⭐Download teh Splunk Datasets
+### 👉Download the Splunk Datasets
 
 📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set.tgz) BOTS V2 Dataset [16.4 GB]. 
 
@@ -39,3 +39,9 @@ Insert a diagram here to visualize the lab architecture.
 
 📍 **Detecting SQL Injection attack**:Leverage Splunk's query and correlation capabilities to analyze database logs, promptly detecting and mitigating SQL injection attacks, strengthening resilience against this common web application vulnerability.
 
+
+## Build and Learn with us
+- Live Home-Lab Set up and Exercises
+- Day: 1st and 3rd Saturday
+- Duration: 2 hours
+- Recording available
