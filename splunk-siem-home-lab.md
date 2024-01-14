@@ -6,17 +6,17 @@ This is the most powerful home-lab focused on setting up Splunk SIEM and real-wo
 
 ## 📄Lab Architecture
 
-### ⭐Components
+### 🧲Components
 
 1. **Splunk Enterprise**: Version X.X.X
 
 2. **Forwarder**: Version X.X.X
 
-### ⭐Diagram
+### 🖼️Lab Diagram
 
 Insert a diagram here to visualize the lab architecture.
 
-## Setting up Splunk 
+## 🧑‍💻Setting up Splunk 
 
 📍[Download](https://www.splunk.com/en_us/download/splunk-enterprise.html ) Splunk Enterprise [FREE TRIAL 60 days] .
 
