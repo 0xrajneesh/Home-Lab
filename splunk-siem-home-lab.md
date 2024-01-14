@@ -9,14 +9,8 @@ This is the most powerful home-lab focused on setting up Splunk SIEM and real-wo
 ### Components
 
 1. **Splunk Enterprise**: Version X.X.X
-    - [Download Splunk](https://www.splunk.com/en_us/download.html)
 
 2. **Forwarder**: Version X.X.X
-    - [Download Splunk Universal Forwarder](https://www.splunk.com/en_us/download/universal-forwarder.html)
-
-3. **Additional Components**:
-    - Component 1
-    - Component 2
 
 ### Diagram
 
