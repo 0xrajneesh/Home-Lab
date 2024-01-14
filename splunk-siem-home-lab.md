@@ -32,7 +32,10 @@ Insert a diagram here to visualize the lab architecture.
 
 ## 📁Use Cases
 📍 **Insider Threat detectio**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.
+
 📍 **Detecting Unauthoirized applications**: Leverage Splunk to monitor endpoint and network logs, promptly detecting and responding to the presence of unauthorized applications, bolstering security against potential risks.
+
 📍 **Detecting Web-based attacks**: Utilize Splunk to analyze web server logs, identify patterns indicative of web-based attacks, and enhance cybersecurity posture through proactive detection and incident response.
+
 📍 **Detecting SQL Injection attack**:Leverage Splunk's query and correlation capabilities to analyze database logs, promptly detecting and mitigating SQL injection attacks, strengthening resilience against this common web application vulnerability.
 
