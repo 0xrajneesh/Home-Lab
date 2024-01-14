@@ -31,7 +31,8 @@ Insert a diagram here to visualize the lab architecture.
 📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz) BOTS V2 Dataset(Attack Only) [3.2 GB] 
 
 ## 📁Use Cases
-📍 Insider Threat detection:
-📍 Detecting Unauthoirized applications:
-📍 Detecting Web-based attacks:
-📍 Detecting SQL Injection attack:
+📍 **Insider Threat detectio**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.
+📍 **Detecting Unauthoirized applications**: Leverage Splunk to monitor endpoint and network logs, promptly detecting and responding to the presence of unauthorized applications, bolstering security against potential risks.
+📍 **Detecting Web-based attacks**: Utilize Splunk to analyze web server logs, identify patterns indicative of web-based attacks, and enhance cybersecurity posture through proactive detection and incident response.
+📍 **Detecting SQL Injection attack**:Leverage Splunk's query and correlation capabilities to analyze database logs, promptly detecting and mitigating SQL injection attacks, strengthening resilience against this common web application vulnerability.
+
