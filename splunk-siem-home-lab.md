@@ -40,7 +40,7 @@ Insert a diagram here to visualize the lab architecture.
 📍 **Detecting SQL Injection attack**:Leverage Splunk's query and correlation capabilities to analyze database logs, promptly detecting and mitigating SQL injection attacks, strengthening resilience against this common web application vulnerability.
 
 
-## Build and Learn with us
+## 🔴Build and Learn with us
 - Live Home-Lab Set up and Exercises
 - Day: 1st and 3rd Saturday
 - Duration: 2 hours
