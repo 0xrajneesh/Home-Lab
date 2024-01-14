@@ -16,18 +16,22 @@ This is the most powerful home-lab focused on setting up Splunk SIEM and real-wo
 
 Insert a diagram here to visualize the lab architecture.
 
-## 🧑‍💻Setting up Splunk 
+## 🧑‍💻Setting up Lab
+
+### ⭐Setting up Splunk SIEM
 
 📍[Download](https://www.splunk.com/en_us/download/splunk-enterprise.html ) Splunk Enterprise [FREE TRIAL 60 days] .
 
-📍Download Splunk Security Essentials App [FREE]
-   - [Download](https://splunkbase.splunk.com/app/3435 ).
+📍[Download](https://splunkbase.splunk.com/app/3435) Splunk Security Essentials App [FREE]
 
+### ⭐Download teh Splunk Datasets
 
-## Sample Datasets
+📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set.tgz) BOTS V2 Dataset [16.4 GB]. 
 
-📍BOTS V2 Dataset [16.4 GB]. 
-   -[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set.tgz  ).
+📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz) BOTS V2 Dataset(Attack Only) [3.2 GB] 
 
-📍BOTS V2 Dataset(Attack Only) [3.2 GB] 
-   -[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz  ).
+## 📁Use Cases
+📍 Insider Threat detection:
+📍 Detecting Unauthoirized applications:
+📍 Detecting Web-based attacks:
+📍 Detecting SQL Injection attack:
