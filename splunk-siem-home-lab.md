@@ -4,17 +4,17 @@
 
 This is the most powerful home-lab focused on setting up Splunk SIEM and real-world use cases. If you’re interested to become SOC Analyst(Tier 1/2) , this lab will help you with SOC tools, rules, queries, apps and integration.
 
-## 👉Components
+## 🧮Components
 
 1. **Splunk Enterprise**: Version X.X.X
 
 2. **Forwarder**: Version X.X.X
 
-## 👉Lab Diagram
+## 🖼️Lab Diagram
 
 Insert a diagram here to visualize the lab architecture.
 
-### 👉Setting up Splunk SIEM
+## </> Setting up Splunk SIEM
 
 📍[Download](https://www.splunk.com/en_us/download/splunk-enterprise.html ) Splunk Enterprise [FREE TRIAL 60 days] .
 
@@ -24,7 +24,7 @@ Insert a diagram here to visualize the lab architecture.
 
 📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz) BOTS V2 Dataset(Attack Only) [3.2 GB] 
 
-## 📁Excercises
+## 🧑‍💻Excercises
 📍 **Insider Threat detectio**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.
 
 📍 **Detecting Unauthoirized applications**: Leverage Splunk to monitor endpoint and network logs, promptly detecting and responding to the presence of unauthorized applications, bolstering security against potential risks.
