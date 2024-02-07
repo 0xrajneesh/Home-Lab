@@ -22,7 +22,7 @@ Insert a diagram here to visualize the lab architecture.
 📍Download and install [Wireshark](https://www.wireshark.org/download.html) on Windows 11  
 
 
-## 🧑‍💻Excercises
+## 🧑‍💻Excercises- 
 📍 **Insider Threat detectio**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.
 
 📍 **Detecting Unauthoirized applications**: Leverage Splunk to monitor endpoint and network logs, promptly detecting and responding to the presence of unauthorized applications, bolstering security against potential risks.
