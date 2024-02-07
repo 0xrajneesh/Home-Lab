@@ -14,15 +14,13 @@ This home-lab is focussed on setting up Wireshark Home-Lab and getting hands-on 
 
 Insert a diagram here to visualize the lab architecture.
 
-## </> Setting up Splunk SIEM
+## </> Setting up Wireshark Home-Lab
 
-📍[Download](https://www.splunk.com/en_us/download/splunk-enterprise.html ) Splunk Enterprise [FREE TRIAL 60 days] .
+📍Download and Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+📍Download and import [Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines) in Virtualbox
+📍Download and import [Windows 11](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/) in Virtualbox
+📍Download and install [Wireshark](https://www.wireshark.org/download.html) on Windows 11
 
-📍[Download](https://splunkbase.splunk.com/app/3435) Splunk Security Essentials App
-
-📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set.tgz) BOTS V2 Dataset [16.4 GB]. 
-
-📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz) BOTS V2 Dataset(Attack Only) [3.2 GB] 
 
 ## 🧑‍💻Excercises
 📍 **Insider Threat detectio**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.
