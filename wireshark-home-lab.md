@@ -16,10 +16,10 @@ Insert a diagram here to visualize the lab architecture.
 
 ## </> Setting up Wireshark Home-Lab
 
-📍Download and Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-📍Download and import [Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines) in Virtualbox
-📍Download and import [Windows 11](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/) in Virtualbox
-📍Download and install [Wireshark](https://www.wireshark.org/download.html) on Windows 11
+📍Download and Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads) 
+📍Download and import [Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines) in Virtualbox 
+📍Download and import [Windows 11](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/) in Virtualbox 
+📍Download and install [Wireshark](https://www.wireshark.org/download.html) on Windows 11 
 
 
 ## 🧑‍💻Excercises
