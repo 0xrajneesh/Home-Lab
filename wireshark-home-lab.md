@@ -31,11 +31,11 @@ Insert a diagram here to visualize the lab architecture.
 
 📍 **SMTP Traffic Analysis**:Monitor [SMTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/smtp.pcap) traffic to detect email communication and extract sender/receiver information.  
 
-📍 **FTP Traffic Analysis**: Capture FTP packets to analyze file transfers and extract filenames.  
+📍 **FTP Traffic Analysis**: Capture [FTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/FTPv6-1.cap) packets to analyze file transfers and extract filenames.  
 
-📍 **DNS Traffic Analysis**: Analyze DNS packets to identify domain lookups and resolve IP addresses.    
+📍 **DNS Traffic Analysis**: Analyze [DNS](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dns-remoteshell.pcap) packets to identify domain lookups and resolve IP addresses.    
 
-📍 **HTTP Traffic Analysis**: Capture HTTP traffic and extract URLs visited.  
+📍 **HTTP Traffic Analysis**: Capture [HTTP](https://wiki.wireshark.org/uploads/27707187aeb30df68e70c8fb9d614981/http.cap) traffic and extract URLs visited.  
 
 
 ## 🧑‍💻Excercise- Security Forensics
