@@ -4,17 +4,17 @@ Welcome to the Home-Lab Repository, a curated collection of home-lab setups desi
 
 
 ## Contents
-Splunk Home Lab 📊
-Wireshark Home Lab 📡
-Open Source IAM Home Lab 🔐
+Splunk Home Lab 📊  
+Wireshark Home Lab 📡  
+Open Source IAM Home Lab 🔐  
 
 ## Contributing
-Contributions are welcome! If you have a home lab setup, exercises, or additional tools to add, please feel free to submit a pull request or open an issue.
+Contributions are welcome! If you have a home lab setup, exercises, or additional tools to add, please feel free to submit a pull request or open an issue.  
 
 ## License
 This repository is licensed under MIT License.
 
 ## Acknowledgments
-Thanks to all contributors and the cybersecurity community for sharing knowledge and resources to make this repository possible.
+Thanks to all contributors and the cybersecurity community for sharing knowledge and resources to make this repository possible.  
 
-Dive into each section for detailed guides and exercises. Happy learning and exploring! 
+Dive into each section for detailed guides and exercises. Happy learning and exploring!   
