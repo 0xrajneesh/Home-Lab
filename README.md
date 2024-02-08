@@ -1,4 +1,4 @@
-# Home-Lab Repository 🛠️
+# Home-Lab  🛠️
 Welcome to the Home-Lab Repository, a curated collection of home-lab setups designed to offer hands-on experience with various cybersecurity tools focusing on blue team activities. This repository includes detailed guides and exercises for setting up and exploring tools like Splunk, Wireshark, open-source Identity and Access Management (IAM) solutions (including Keycloak), and other essential blue team tools.   
 
 
