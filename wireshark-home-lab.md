@@ -39,31 +39,37 @@ Insert a diagram here to visualize the lab architecture.
 
 
 ## 🧑‍💻Excercise- Security Forensics
-📍 **SYN Scan**: Detect SYN scan by identifying packets with SYN flag set and multiple consecutive SYN-ACK responses.  
+📍 **SYN Scan**: Detect [SYN scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by identifying packets with SYN flag set and multiple consecutive SYN-ACK responses.  
 
-📍 **UDP Scan**: Identify UDP scan by analyzing packets with UDP destination ports and absence of corresponding responses or ICMP port unreachable messages.   
+📍 **UDP Scan**: Identify [UDP scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with UDP destination ports and absence of corresponding responses or ICMP port unreachable messages.   
 
-📍 **TCP Connect Scan**: Recognize TCP connect scan by observing TCP three-way handshake sequences.  
+📍 **TCP Connect Scan**: Recognize [TCP connect scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by observing TCP three-way handshake sequences.  
 
-📍 **ACK Scan**: Detect ACK scan by analyzing packets with only ACK flag set and no SYN or FIN flags.
+📍 **ACK Scan**: Detect [ACK scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with only ACK flag set and no SYN or FIN flags.
 
-📍 **FIN Scan**: Identify FIN scan by observing packets with only FIN flag set and absence of response packets or ICMP unreachable messages.  
+📍 **FIN Scan**: Identify [FIN scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by observing packets with only FIN flag set and absence of response packets or ICMP unreachable messages.  
 
-📍 **XMAS Scan**: Detect XMAS scan by analyzing packets with FIN, PSH, and URG flags set simultaneously and absence of corresponding responses.   
+📍 **XMAS Scan**: Detect [XMAS scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with FIN, PSH, and URG flags set simultaneously and absence of corresponding responses.   
 
-📍 **NULL Scan**: Recognize NULL scan by analyzing packets with no TCP flags set and absence of response packets or ICMP unreachable messages.  
+📍 **NULL Scan**: Recognize [NULL scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with no TCP flags set and absence of response packets or ICMP unreachable messages.  
 
-📍 **TCP Window Scan**: Detect TCP Window scan by analyzing packets with varying TCP window sizes indicating potential reconnaissance.  
+📍 **TCP Window Scan**: Detect [TCP Window scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with varying TCP window sizes indicating potential reconnaissance.  
 
-📍 **IDLE Scan**: Identify Idle scan by analyzing packets from a seemingly unrelated zombie host, observing indirect communication patterns.  
+📍 **IDLE Scan**: Identify [Idle scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets from a seemingly unrelated zombie host, observing indirect communication patterns.  
 
-📍 **FTP Traffic Analysis**: Capture FTP packets to analyze file transfers and extract filenames.  
+📍 **Version Scan**: Recognize [Version detection](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) scan by analyzing packets containing service banners or responses with version information.  
 
-📍 **DNS Traffic Analysis**: Analyze DNS packets to identify domain lookups and resolve IP addresses.    
+📍 **DDoS attack**: Detect [DDoS attacks](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip ) by analyzing abnormal traffic patterns, such as a sudden surge in incoming packets from multiple sources targeting specific ports or services.  
 
-📍 **Version Scan**: Recognize version detection scan by analyzing packets containing service banners or responses with version information.  
 
-📍 **DDoS attack**: Detect DDoS attacks by analyzing abnormal traffic patterns, such as a sudden surge in incoming packets from multiple sources targeting specific ports or services.  
+## 🧑‍💻Excercise- Malware Traffic Analysis
+📍Examining [Emotet Infection](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-1-2021-01-06-Emotet-infection.pcap.zip) Traffic  
+
+📍Examining Emotet with [Spambot traffic](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-2-2021-01-05-Emotet-with-spambot-traffic-part-1.pcap.zip)  
+📍Examining Emotet with [Trickbot](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-4-2021-01-05-Emotet-infection-with-Trickbot.pcap.zip) pcap  
+
+📍Analyzing Emotet Infection with [Qakbot](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-5-2020-08-18-Emotet-infection-with-Qakbot.pcap.zip) pcap
+
 
 
 
