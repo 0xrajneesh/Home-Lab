@@ -31,15 +31,15 @@ Keycloak is an open-source Identity and Access Management (IAM) solution aimed a
 
 ## </> Setting up Keycloak IAM
 
-📍**Installation**: Use Docker for an easy setup. Follow the Keycloak [Docker Guide](https://www.keycloak.org/getting-started/getting-started-docker).  
+- **Installation**: Use Docker for an easy setup. Follow the Keycloak [Docker Guide](https://www.keycloak.org/getting-started/getting-started-docker).  
 
-📍**Initial Configuration**: Access the Keycloak Admin Console at http://localhost:8080/auth. Default admin credentials are used for login.  
+- **Initial Configuration**: Access the Keycloak Admin Console at http://localhost:8080/auth. Default admin credentials are used for login.  
 
-📍**Create a Realm**: Realms manage users, credentials, roles, and groups. Creating a New [Realm Guide](https://www.keycloak.org/docs/latest/server_admin/#configuring-realms).  
+- **Create a Realm**: Realms manage users, credentials, roles, and groups. Creating a New [Realm Guide](https://www.keycloak.org/docs/latest/server_admin/#configuring-realms).  
 
-📍**Define a Provider**: Organizations can have databases containing information, passwords, and other credentials. Add a [Provider](https://www.keycloak.org/docs/latest/server_admin/#adding-a-provider)  
+- **Define a Provider**: Organizations can have databases containing information, passwords, and other credentials. Add a [Provider](https://www.keycloak.org/docs/latest/server_admin/#adding-a-provider)  
 
-📍**Roles and Users**: Add roles and users under their respective tabs. Managing [Users and Roles](https://www.keycloak.org/docs/latest/server_admin/#assembly-managing-users_server_administration_guide).   
+- **Roles and Users**: Add roles and users under their respective tabs. Managing [Users and Roles](https://www.keycloak.org/docs/latest/server_admin/#assembly-managing-users_server_administration_guide).   
 
 
 ## 🧑‍💻Excercises
