@@ -29,7 +29,7 @@ Insert a diagram here to visualize the lab architecture.
 
 📍 **DHCP Packet Analysis**: Investigate [DHCP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dhcp.pcap) traffic to identify IP address leases and lease durations.  
 
-📍 **SMTP Traffic Analysis**:Monitor [SMTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/smtp.pcap) traffic to detect email communication and extract sender/receiver information.  
+📍 **SMTP Traffic Analysis**: Monitor [SMTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/smtp.pcap) traffic to detect email communication and extract sender/receiver information.  
 
 📍 **FTP Traffic Analysis**: Capture [FTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/FTPv6-1.cap) packets to analyze file transfers and extract filenames.  
 
