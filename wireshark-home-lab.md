@@ -71,11 +71,6 @@ Insert a diagram here to visualize the lab architecture.
 📍Analyzing Emotet Infection with [Qakbot](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-5-2020-08-18-Emotet-infection-with-Qakbot.pcap.zip) pcap
 
 
+## 💁‍♂️ Need Help
 
 
-
-## 🔴Build and Learn with us
-- Live Home-Lab Set up and Exercises
-- Day: 1st and 3rd Saturday
-- Duration: 2 hours
-- Recording available
