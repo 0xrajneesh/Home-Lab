@@ -22,14 +22,50 @@ Insert a diagram here to visualize the lab architecture.
 📍Download and install [Wireshark](https://www.wireshark.org/download.html) on Windows 11  
 
 
-## 🧑‍💻Excercises- 
-📍 **Insider Threat detectio**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.
+## 🧑‍💻Excercise- Network Analysis
+📍 **ARP Packet Analysis**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.  
 
-📍 **Detecting Unauthoirized applications**: Leverage Splunk to monitor endpoint and network logs, promptly detecting and responding to the presence of unauthorized applications, bolstering security against potential risks.
+📍 **ICMP Packet Analysis**: Analyze ICMP packets to troubleshoot network connectivity issues.  
 
-📍 **Detecting Web-based attacks**: Utilize Splunk to analyze web server logs, identify patterns indicative of web-based attacks, and enhance cybersecurity posture through proactive detection and incident response.
+📍 **DHCP Packet Analysis**: Investigate DHCP traffic to identify IP address leases and lease durations.  
 
-📍 **Detecting SQL Injection attack**:Leverage Splunk's query and correlation capabilities to analyze database logs, promptly detecting and mitigating SQL injection attacks, strengthening resilience against this common web application vulnerability.
+📍 **SMTP Traffic Analysis**:Monitor SMTP traffic to detect email communication and extract sender/receiver information.  
+
+📍 **FTP Traffic Analysis**: Capture FTP packets to analyze file transfers and extract filenames.  
+
+📍 **DNS Traffic Analysis**: Analyze DNS packets to identify domain lookups and resolve IP addresses.    
+
+📍 **HTTP Traffic Analysis**: Capture HTTP traffic and extract URLs visited.  
+
+
+## 🧑‍💻Excercise- Security Forensics
+📍 **SYN Scan**:Detect SYN scan by identifying packets with SYN flag set and multiple consecutive SYN-ACK responses.  
+
+📍 **UDP Scan**: Identify UDP scan by analyzing packets with UDP destination ports and absence of corresponding responses or ICMP port unreachable messages.   
+
+📍 **TCP Connect Scan**: Recognize TCP connect scan by observing TCP three-way handshake sequences.  
+
+📍 **ACK Scan**:Detect ACK scan by analyzing packets with only ACK flag set and no SYN or FIN flags.
+
+📍 **FIN Scan**: Identify FIN scan by observing packets with only FIN flag set and absence of response packets or ICMP unreachable messages.  
+
+📍 **XMAS Scan**: Detect XMAS scan by analyzing packets with FIN, PSH, and URG flags set simultaneously and absence of corresponding responses.   
+
+📍 **NULL Scan**: Recognize NULL scan by analyzing packets with no TCP flags set and absence of response packets or ICMP unreachable messages.  
+
+📍 **TCP Window Scan**: Detect TCP Window scan by analyzing packets with varying TCP window sizes indicating potential reconnaissance.  
+
+📍 **IDLE Scan**: Identify Idle scan by analyzing packets from a seemingly unrelated zombie host, observing indirect communication patterns.  
+
+📍 **FTP Traffic Analysis**: Capture FTP packets to analyze file transfers and extract filenames.  
+
+📍 **DNS Traffic Analysis**: Analyze DNS packets to identify domain lookups and resolve IP addresses.    
+
+📍 **Version Scan**: Recognize version detection scan by analyzing packets containing service banners or responses with version information.  
+
+📍 **DDoS attack**: Detect DDoS attacks by analyzing abnormal traffic patterns, such as a sudden surge in incoming packets from multiple sources targeting specific ports or services.  
+
+
 
 
 ## 🔴Build and Learn with us
