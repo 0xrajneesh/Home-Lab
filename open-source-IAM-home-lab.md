@@ -8,7 +8,7 @@ Keycloak is an open-source Identity and Access Management (IAM) solution aimed a
 
 ## 🧮Requirements
 
-**Hardware**: At least 4GB of RAM and 2 CPU cores (virtual or physical).
+**Hardware**: At least 4GB of RAM and 2 CPU cores (virtual or physical).  
 **Software**:
 - Docker and Docker Compose (for container management).
 - JDK 11+ (if running Keycloak natively or for development purposes).
