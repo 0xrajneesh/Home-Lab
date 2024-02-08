@@ -43,7 +43,7 @@ Keycloak is an open-source Identity and Access Management (IAM) solution aimed a
 
 
 ## 🧑‍💻Excercises
-- **Create a New Realm**: Follow the guide to create and configure a new realm separate from the Master realm.  
+- **Create a New Realm**: Follow the guide to create and configure a new realm separate from the Master realm.
 - **Define a New Client**: Add a new client for your application with appropriate settings for access type and valid redirects.  
 - **User Registration**: Enable user registration in your realm and sign up a new user account.  
 - **Configure Social Identity Providers**: Add a social identity provider, such as Google or Facebook, and test social login.  
