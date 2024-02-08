@@ -23,13 +23,13 @@ Insert a diagram here to visualize the lab architecture.
 
 
 ## 🧑‍💻Excercise- Network Analysis
-📍 **ARP Packet Analysis**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.  
+📍 **ARP Packet Analysis**: Capture [ARP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/arp-storm.pcap) packets to monitor address resolution and detect network mapping activities.
 
-📍 **ICMP Packet Analysis**: Analyze ICMP packets to troubleshoot network connectivity issues.  
+📍 **ICMP Packet Analysis**: Analyze [ICMP](https://wiki.wireshark.org/uploads/df619289f2986680173b8cd3035ca4ac/220614_ip_flags_google.pcapng) packets to troubleshoot network connectivity issues.  
 
-📍 **DHCP Packet Analysis**: Investigate DHCP traffic to identify IP address leases and lease durations.  
+📍 **DHCP Packet Analysis**: Investigate [DHCP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dhcp.pcap) traffic to identify IP address leases and lease durations.  
 
-📍 **SMTP Traffic Analysis**:Monitor SMTP traffic to detect email communication and extract sender/receiver information.  
+📍 **SMTP Traffic Analysis**:Monitor [SMTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/smtp.pcap) traffic to detect email communication and extract sender/receiver information.  
 
 📍 **FTP Traffic Analysis**: Capture FTP packets to analyze file transfers and extract filenames.  
 
@@ -39,13 +39,13 @@ Insert a diagram here to visualize the lab architecture.
 
 
 ## 🧑‍💻Excercise- Security Forensics
-📍 **SYN Scan**:Detect SYN scan by identifying packets with SYN flag set and multiple consecutive SYN-ACK responses.  
+📍 **SYN Scan**: Detect SYN scan by identifying packets with SYN flag set and multiple consecutive SYN-ACK responses.  
 
 📍 **UDP Scan**: Identify UDP scan by analyzing packets with UDP destination ports and absence of corresponding responses or ICMP port unreachable messages.   
 
 📍 **TCP Connect Scan**: Recognize TCP connect scan by observing TCP three-way handshake sequences.  
 
-📍 **ACK Scan**:Detect ACK scan by analyzing packets with only ACK flag set and no SYN or FIN flags.
+📍 **ACK Scan**: Detect ACK scan by analyzing packets with only ACK flag set and no SYN or FIN flags.
 
 📍 **FIN Scan**: Identify FIN scan by observing packets with only FIN flag set and absence of response packets or ICMP unreachable messages.  
 
