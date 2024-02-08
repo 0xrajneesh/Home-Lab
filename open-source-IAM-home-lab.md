@@ -10,8 +10,8 @@ Keycloak is an open-source Identity and Access Management (IAM) solution aimed a
 
 **Hardware**: At least 4GB of RAM and 2 CPU cores (virtual or physical).
 **Software**:
-    Docker and Docker Compose (for container management). Docker Installation Guide
-    JDK 11+ (if running Keycloak natively or for development purposes). JDK Download
+- Docker and Docker Compose (for container management).
+- JDK 11+ (if running Keycloak natively or for development purposes).
 
 ## 🖼️Lab Diagram
 
