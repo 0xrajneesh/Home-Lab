@@ -22,7 +22,7 @@ Insert a diagram here to visualize the lab architecture.
 📍Download and install [Wireshark](https://www.wireshark.org/download.html) on Windows 11  
 
 
-## 🧑‍💻Excercise- Network Analysis
+## 🧑‍💻Excercises- Network Analysis
 📍 **ARP Packet Analysis**: Capture [ARP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/arp-storm.pcap) packets to monitor address resolution and detect network mapping activities.
 
 📍 **ICMP Packet Analysis**: Analyze [ICMP](https://wiki.wireshark.org/uploads/df619289f2986680173b8cd3035ca4ac/220614_ip_flags_google.pcapng) packets to troubleshoot network connectivity issues.  
@@ -38,7 +38,7 @@ Insert a diagram here to visualize the lab architecture.
 📍 **HTTP Traffic Analysis**: Capture [HTTP](https://wiki.wireshark.org/uploads/27707187aeb30df68e70c8fb9d614981/http.cap) traffic and extract URLs visited.  
 
 
-## 🧑‍💻Excercise- Security Forensics
+## 🧑‍💻Excercises- Security Forensics
 📍 **SYN Scan**: Detect [SYN scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by identifying packets with SYN flag set and multiple consecutive SYN-ACK responses.  
 
 📍 **UDP Scan**: Identify [UDP scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with UDP destination ports and absence of corresponding responses or ICMP port unreachable messages.   
@@ -62,7 +62,7 @@ Insert a diagram here to visualize the lab architecture.
 📍 **DDoS attack**: Detect [DDoS attacks](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip ) by analyzing abnormal traffic patterns, such as a sudden surge in incoming packets from multiple sources targeting specific ports or services.  
 
 
-## 🧑‍💻Excercise- Malware Traffic Analysis
+## 🧑‍💻Excercises- Malware Traffic Analysis
 📍Examining [Emotet Infection](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-1-2021-01-06-Emotet-infection.pcap.zip) Traffic  
 
 📍Examining Emotet with [Spambot traffic](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-2-2021-01-05-Emotet-with-spambot-traffic-part-1.pcap.zip)  
