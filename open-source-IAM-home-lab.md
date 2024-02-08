@@ -1,76 +1,63 @@
-# Wireshark Home_Lab
+# Open Source IAM Home-Lab
 
 ## ℹ️Overview
 
-This home-lab is focussed on setting up Wireshark Home-Lab and getting hands-on with practical scenarios. If you are a Network Security engineer, SOC Analyst or Aspirant Security Analyst, this home-lab with help you with Network Analysis, Security Forensics and Malware TRaffic Analysis.
+This Home-lab focuses on Open-source Identity and Access Management tool. If you are interested to become a Security Engineer, this home-lab suite will help you set up a custom open source IAM solution.
+Keycloak is an open-source Identity and Access Management (IAM) solution aimed at modern applications and services. It offers out-of-the-box support for web applications, single sign-on (SSO), two-factor authentication, and social login. 
+
 
 ## 🧮Requirements
 
-1. **Attacker**: Kali Linux
-
-2. **Defender**: Windows 11 or Ubuntu with Wireshark
+**Hardware**: At least 4GB of RAM and 2 CPU cores (virtual or physical).
+**Software**:
+    Docker and Docker Compose (for container management). Docker Installation Guide
+    JDK 11+ (if running Keycloak natively or for development purposes). JDK Download
 
 ## 🖼️Lab Diagram
 
-Insert a diagram here to visualize the lab architecture.
++-----------------+       +------------------+       +-----------------+
+|                 |       |                  |       |                 |
+|  User Browser   +------>+  Keycloak Server +------>+  Application(s) |
+|                 |       |                  |       |                 |
++-----------------+       +------------------+       +-----------------+
+                                 ^
+                                 |
+                          +------+------+
+                          |             |
+                          | Database    |
+                          | (PostgreSQL)|
+                          |             |
+                          +-------------+
 
-## </> Setting up Wireshark Home-Lab
+## </> Setting up Keycloak IAM
 
-📍Download and Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)  
-📍Download and import [Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines) in Virtualbox  
-📍Download and import [Windows 11](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/) in Virtualbox  
-📍Download and install [Wireshark](https://www.wireshark.org/download.html) on Windows 11  
-
-
-## 🧑‍💻Excercises- Network Analysis
-📍 **ARP Packet Analysis**: Capture [ARP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/arp-storm.pcap) packets to monitor address resolution and detect network mapping activities.
-
-📍 **ICMP Packet Analysis**: Analyze [ICMP](https://wiki.wireshark.org/uploads/df619289f2986680173b8cd3035ca4ac/220614_ip_flags_google.pcapng) packets to troubleshoot network connectivity issues.  
-
-📍 **DHCP Packet Analysis**: Investigate [DHCP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dhcp.pcap) traffic to identify IP address leases and lease durations.  
-
-📍 **SMTP Traffic Analysis**: Monitor [SMTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/smtp.pcap) traffic to detect email communication and extract sender/receiver information.  
-
-📍 **FTP Traffic Analysis**: Capture [FTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/FTPv6-1.cap) packets to analyze file transfers and extract filenames.  
-
-📍 **DNS Traffic Analysis**: Analyze [DNS](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dns-remoteshell.pcap) packets to identify domain lookups and resolve IP addresses.    
-
-📍 **HTTP Traffic Analysis**: Capture [HTTP](https://wiki.wireshark.org/uploads/27707187aeb30df68e70c8fb9d614981/http.cap) traffic and extract URLs visited.  
+📍**Installation**: Use Docker for an easy setup. Follow the Keycloak [Docker Guide](https://www.keycloak.org/getting-started/getting-started-docker).  
+📍**Initial Configuration**: Access the Keycloak Admin Console at http://localhost:8080/auth. Default admin credentials are used for login.  
+📍**Create a Realm**: Realms manage users, credentials, roles, and groups. Creating a New [Realm Guide](https://www.keycloak.org/docs/latest/server_admin/#configuring-realms).  
+📍**Define a Provider**: Organizations can have databases containing information, passwords, and other credentials. Add a [Provider](https://www.keycloak.org/docs/latest/server_admin/#adding-a-provider)
+📍**Roles and Users**: Add roles and users under their respective tabs. Managing [Users and Roles](https://www.keycloak.org/docs/latest/server_admin/#assembly-managing-users_server_administration_guide).  
 
 
-## 🧑‍💻Excercises- Security Forensics
-📍 **SYN Scan**: Detect [SYN scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by identifying packets with SYN flag set and multiple consecutive SYN-ACK responses.  
-
-📍 **UDP Scan**: Identify [UDP scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with UDP destination ports and absence of corresponding responses or ICMP port unreachable messages.   
-
-📍 **TCP Connect Scan**: Recognize [TCP connect scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by observing TCP three-way handshake sequences.  
-
-📍 **ACK Scan**: Detect [ACK scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with only ACK flag set and no SYN or FIN flags.
-
-📍 **FIN Scan**: Identify [FIN scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by observing packets with only FIN flag set and absence of response packets or ICMP unreachable messages.  
-
-📍 **XMAS Scan**: Detect [XMAS scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with FIN, PSH, and URG flags set simultaneously and absence of corresponding responses.   
-
-📍 **NULL Scan**: Recognize [NULL scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with no TCP flags set and absence of response packets or ICMP unreachable messages.  
-
-📍 **TCP Window Scan**: Detect [TCP Window scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with varying TCP window sizes indicating potential reconnaissance.  
-
-📍 **IDLE Scan**: Identify [Idle scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets from a seemingly unrelated zombie host, observing indirect communication patterns.  
-
-📍 **Version Scan**: Recognize [Version detection](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) scan by analyzing packets containing service banners or responses with version information.  
-
-📍 **DDoS attack**: Detect [DDoS attacks](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip ) by analyzing abnormal traffic patterns, such as a sudden surge in incoming packets from multiple sources targeting specific ports or services.  
-
-
-## 🧑‍💻Excercises- Malware Traffic Analysis
-📍Examining [Emotet Infection](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-1-2021-01-06-Emotet-infection.pcap.zip) Traffic  
-
-📍Examining Emotet with [Spambot traffic](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-2-2021-01-05-Emotet-with-spambot-traffic-part-1.pcap.zip)  
-📍Examining Emotet with [Trickbot](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-4-2021-01-05-Emotet-infection-with-Trickbot.pcap.zip) pcap  
-
-📍Analyzing Emotet Infection with [Qakbot](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-5-2020-08-18-Emotet-infection-with-Qakbot.pcap.zip) pcap
-
-
-## 💁‍♂️ Need Help
+## 🧑‍💻Excercises
+📍**Create a New Realm**: Follow the guide to create and configure a new realm separate from the Master realm.
+📍**Define a New Client**: Add a new client for your application with appropriate settings for access type and valid redirects.
+📍**User Registration**: Enable user registration in your realm and sign up a new user account.
+📍**Configure Social Identity Providers**: Add a social identity provider, such as Google or Facebook, and test social login.
+📍**Setup OTP for Two-Factor Authentication**: Configure and test OTP as a second authentication factor for a user.
+📍**Customize Themes**: Change the theme of the login, admin console, or account management pages.
+📍**Configure Client Scopes**: Create and apply client scopes to limit the information and access provided by tokens.
+📍**User Federation with LDAP**: Integrate an LDAP directory for user federation and synchronize users.
+📍**Role Mapping for Federated Users**: Map LDAP roles to Keycloak roles for federated users.
+📍**Group Management**: Create groups, assign users to groups, and manage group roles.
+📍**Session Management**: View and manage user sessions in the admin console, including logging out sessions.
+📍**User Attributes**: Add custom user attributes and configure them to appear in the token claims.
+📍**Fine-Grained Authorization**: Configure resource-based permissions and policies for a client.
+📍**Service Accounts**: Create and configure a service account for a client for server-to-server communication.
+📍**Protocol Mappers**: Add a protocol mapper to customize the claims in the token issued by Keycloak.
+📍**Event Logging and Reporting**: Enable and review login and admin events for auditing purposes.
+📍**Password Policies**: Set up and enforce password policies for users in your realm.
+📍**Consent Management**: Configure client consent requirements and manage user consents.
+📍**Multi-Tenancy Setup**: Configure Keycloak for multi-tenancy using realms or by configuring one realm to manage multiple tenants.
+📍**Token Exchange**: Setup and test token exchange between clients or between realms.
 
 
