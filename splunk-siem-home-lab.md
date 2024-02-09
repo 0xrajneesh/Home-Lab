@@ -12,7 +12,8 @@ This is the most powerful home-lab focused on setting up Splunk SIEM and real-wo
 
 ## 🖼️Lab Diagram
 
-Insert a diagram here to visualize the lab architecture.
+![Home-Lab](https://github.com/0xrajneesh/Home-Lab/assets/40385860/2a1f4e02-3ae9-4d47-8e09-9370548035ed)
+
 
 ## </> Setting up Splunk SIEM
 
