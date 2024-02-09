@@ -12,7 +12,8 @@ This home-lab is focussed on setting up Wireshark Home-Lab and getting hands-on 
 
 ## 🖼️Lab Diagram
 
-Insert a diagram here to visualize the lab architecture.
+![Home-Lab (1)](https://github.com/0xrajneesh/Home-Lab/assets/40385860/97c81520-b7f0-468a-a8d1-67d67d6dccd8)
+
 
 ## </> Setting up Wireshark Home-Lab
 
