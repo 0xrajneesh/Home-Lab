@@ -4,11 +4,17 @@
 
 This is the most powerful home-lab focused on setting up Splunk SIEM and real-world use cases. If you’re interested to become SOC Analyst(Tier 1/2) , this lab will help you with SOC tools, rules, queries, apps and integration.
 
-## 🧮Components
+## 🧮Requirements
 
-1. **Splunk Enterprise**: Version X.X.X
+- **Hardware**:
+  - Ubuntu Server 22.04(for Splunk Enterprise)
+  - Windows 11 Machine
 
-2. **Forwarder**: Version X.X.X
+- **Software**:
+  - Splunk Enterprise 
+  - Splunk Universal Forwarder
+  
+  
 
 ## 🖼️Lab Diagram
 
