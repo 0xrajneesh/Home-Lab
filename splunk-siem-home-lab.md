@@ -47,12 +47,9 @@ This is the most powerful home-lab focused on setting up Splunk SIEM and real-wo
 - **Malicious File Download**:  Detect malicious file downloads in HTTP server logs.(Hint: Search for HTTP requests with file extensions commonly associated with malware, such as ".exe" or ".dll".)  
 - **Network Reconnaissance**: Identify network reconnaissance activities in network logs using Suricata IDS.(Hint: Look for network logs containing events indicative of port scanning activities, such as multiple connection attempts from the same source IP to different destination IPs.)  
 - **Man-in-the-Middle (MitM) Attack**: Detect potential Man-in-the-Middle (MitM) attacks in network logs.(Hint: Look for network logs indicating rejected connections or SYN packets without completing the TCP handshake, which may suggest ARP spoofing or MitM attacks.)  
-- **Data Exfiltration**:  Identify data exfiltration attempts in network logs.(Hint: Look for network logs containing large outbound data transfers or unusually high volumes of data transmitted from internal to external destinations, which may indicate data exfiltration attempts..)  
+- **Data Exfiltration**:  Identify data exfiltration attempts in network logs.(Hint: Look for network logs containing large outbound data transfers or unusually high volumes of data transmitted from internal to external destinations, which may indicate data exfiltration attempts.)
 
 
 
-## 🔴Build and Learn with us
-- Live Home-Lab Set up and Exercises
-- Day: 1st and 3rd Saturday
-- Duration: 2 hours
-- Recording available
+
+
