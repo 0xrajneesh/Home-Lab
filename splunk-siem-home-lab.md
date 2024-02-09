@@ -11,7 +11,7 @@ This is the most powerful home-lab focused on setting up Splunk SIEM and real-wo
   - Windows 11 Machine
 
 - **Software**:
-  - Splunk Enterprise 
+  - [Splunk Enterprise]((https://www.splunk.com/en_us/download/splunk-enterprise.html )) 
   - Splunk Universal Forwarder
   
   
@@ -21,24 +21,22 @@ This is the most powerful home-lab focused on setting up Splunk SIEM and real-wo
 ![Home-Lab](https://github.com/0xrajneesh/Home-Lab/assets/40385860/2a1f4e02-3ae9-4d47-8e09-9370548035ed)
 
 
-## </> Setting up Splunk SIEM
-
-📍[Download](https://www.splunk.com/en_us/download/splunk-enterprise.html ) Splunk Enterprise [FREE TRIAL 60 days] .
-
-📍[Download](https://splunkbase.splunk.com/app/3435) Splunk Security Essentials App
-
-📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set.tgz) BOTS V2 Dataset [16.4 GB]. 
-
-📍[Download](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz) BOTS V2 Dataset(Attack Only) [3.2 GB] 
+## </> Setting up Splunk SIEM on Ubuntu Server
+- Install Splunk Enterprise software on Ubuntu server    
+- Install Splunk [Security Essentials App]((https://splunkbase.splunk.com/app/3435))  
+- Import [BOTS V2 Dataset](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz)  
 
 ## 🧑‍💻Excercises
-📍 **Insider Threat detectio**:Employ Splunk for real-time monitoring and analysis to swiftly identify anomalous user behavior, mitigating insider threats through timely detection and response.
-
-📍 **Detecting Unauthoirized applications**: Leverage Splunk to monitor endpoint and network logs, promptly detecting and responding to the presence of unauthorized applications, bolstering security against potential risks.
-
-📍 **Detecting Web-based attacks**: Utilize Splunk to analyze web server logs, identify patterns indicative of web-based attacks, and enhance cybersecurity posture through proactive detection and incident response.
-
-📍 **Detecting SQL Injection attack**:Leverage Splunk's query and correlation capabilities to analyze database logs, promptly detecting and mitigating SQL injection attacks, strengthening resilience against this common web application vulnerability.
+- **SQL Injection**: Analyze web logs to detect potential SQL injection attempts. Hint: Look for unusual characters or SQL keywords used in URI parameters, such as ' or 1=1.  
+- **Cross-Site Scripting (XSS)**: Monitor web logs for signs of Cross-Site Scripting (XSS) attacks. Hint: Search for requests containing suspicious JavaScript keywords like "script", "<script>", or "onload".  
+- **Cross-Site Request Forgery**: Identify potential Cross-Site Request Forgery (CSRF) attacks in web logs. Hint: Look for requests with unexpected or unauthorized actions, such as changes in user settings or profile information.
+- **Directory Traversal**: Search for indications of Directory Traversal attacks in web logs. Hint:  Check for requests containing "../" or "%2e%2e/" sequences in the URI, attempting to access files outside the web root.
+- **Brute Force**: Monitor access logs for patterns indicative of brute force attacks. Hint: Look for repeated login attempts from the same IP address or requests with multiple failed authentication attempts.
+- **Session Hijacking**: Detect potential session hijacking attempts by analyzing web logs. Hint: Look for multiple logins from different IP addresses for the same user account in a short time frame.
+- **Remote Code Execution**: Identify potential Remote Code Execution (RCE) attempts in web logs. Hint: Look for requests with unusual file extensions or commands that may indicate attempts to execute arbitrary code on the server.
+- **XXL External Entity**: Search for indications of XML External Entity (XXE) attacks in web logs. Hint: Look for requests with XML payloads containing references to external entities or unusual XML processing instructions.
+- **Insecure Deserialization Detection**: Detect potential Insecure Deserialization attempts in web logs. Hint: Look for requests with serialized data or references to known serialization libraries vulnerable to exploitation.
+- **SSRF Detection**: Monitor web logs for signs of Server-Side Request Forgery (SSRF) attacks. Hint: Look for requests with URLs pointing to internal or sensitive resources, or containing unexpected protocols like "file://" or "gopher://".
 
 
 ## 🔴Build and Learn with us
