@@ -27,7 +27,7 @@ This is the most powerful home-lab focused on setting up Splunk SIEM and real-wo
 - Import [BOTS V2 Dataset](https://s3.amazonaws.com/botsdataset/botsv2/botsv2_data_set_attack_only.tgz)  
 
 ## 🧑‍💻Excercises
-- **SQL Injection**: Analyze web logs to detect potential SQL injection attempts. *Hint: Look for unusual characters or SQL keywords used in URI parameters, such as ' or 1=1.*  
+- **SQL Injection**: Analyze web logs to detect potential SQL injection attempts. (Hint: Look for unusual characters or SQL keywords used in URI parameters, such as ' or 1=1.)  
 - **Cross-Site Scripting (XSS)**: Monitor web logs for signs of Cross-Site Scripting (XSS) attacks. *Hint: Search for requests containing suspicious JavaScript keywords like "script", "<script>", or "onload".*  
 - **Cross-Site Request Forgery**: Identify potential Cross-Site Request Forgery (CSRF) attacks in web logs. *Hint: Look for requests with unexpected or unauthorized actions, such as changes in user settings or profile information*.
 - **Directory Traversal**: Search for indications of Directory Traversal attacks in web logs. *Hint:  Check for requests containing "../" or "%2e%2e/" sequences in the URI, attempting to access files outside the web root*.
