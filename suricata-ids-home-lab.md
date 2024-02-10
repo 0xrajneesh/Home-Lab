@@ -44,5 +44,20 @@ The goal of setting up a Suricata home-lab is to gain practical experience in de
 -  **Metasploit Meterpreter Communication Detection**: Create a Suricata rule to detect Meterpreter communication activities by analyzing HTTP or TCP traffic with characteristic Meterpreter payloads.
 - **Metasploit Credential Harvesting Detection**: Formulate a Suricata rule to detect Metasploit credential harvesting activities by monitoring for specific LDAP or SMB traffic patterns indicative of credential theft.  
 
+## 🧑‍💻Excercises- Web-based attacks
+
+-  **Web Server Enumeration Detection**: Develop a Suricata rule to detect Nmap web server enumeration attempts by monitoring for excessive HTTP GET requests to various URIs.  
+-  **Web Application Vulnerability Scan Detection**: Create a Suricata rule to detect Nmap vulnerability scanning activities against web applications by monitoring for specific HTTP requests targeting common vulnerabilities (e.g., SQL injection, XSS).  
+-  **Metasploit Web Application Exploitation Detection**: Formulate a Suricata rule to detect Metasploit web application exploitation attempts by monitoring for HTTP requests containing known exploit payloads (e.g., SQL injection, remote code execution).   
+-  **Metasploit Command Injection Detection**: Develop a Suricata rule to detect Metasploit command injection attacks by monitoring for HTTP requests with suspicious command injection payloads in URI parameters or POST data.  
+-  **Metasploit Directory Traversal Detection**: Create a Suricata rule to detect Metasploit directory traversal attempts by monitoring for HTTP requests with traversal patterns in URI paths.  
+-  **Metasploit Cross-Site Scripting (XSS) Detection**: Formulate a Suricata rule to detect Metasploit XSS attacks by monitoring for HTTP responses containing characteristic XSS payloads or script injection patterns.  
+- **Metasploit SQL Injection Detection**: Develop a Suricata rule to detect Metasploit SQL injection attacks by monitoring for SQL injection payloads in HTTP requests or SQL error messages in HTTP responses.  
+- **Metasploit File Inclusion Detection**: Create a Suricata rule to detect Metasploit file inclusion attacks by monitoring for HTTP requests with suspicious file inclusion payloads in URI parameters or POST data.
+- **Metasploit Cross-Site Request Forgery (CSRF) Detection**: Formulate a Suricata rule to detect Metasploit CSRF attacks by monitoring for unexpected or unauthorized HTTP requests originating from victim hosts.
+- **Metasploit Authentication Bypass Detection**: Develop a Suricata rule to detect Metasploit authentication bypass attempts by monitoring for HTTP requests with bypass techniques (e.g., parameter manipulation, session fixation).  
+
+
+
 
 
