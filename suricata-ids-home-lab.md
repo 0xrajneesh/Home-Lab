@@ -5,21 +5,36 @@
 The goal of setting up a Suricata home-lab is to gain practical experience in deploying and configuring an Intrusion Detection System (IDS) for network security monitoring. Suricata is an open-source IDS capable of detecting and preventing various network-based threats. This home-lab provides individuals with hands-on experience in setting up, configuring, and utilizing Suricata to enhance network security.   
 
 ## 🧮Requirements
-- **Operating System**:
-  - Linux distribution (e.g., Ubuntu, CentOS, Debian)
+
 - **Hardware**:
-  - Computer with at least 4GB RAM and dual-core processor
-- **Software**:
-  - Suricata IDS (latest version)
-  - Wireshark (optional for packet analysis)
-  - Virtualization software (e.g., VirtualBox, VMware)
+  - Computer with at least 16GB RAM and dual-core processor
+- **VM/ISO Image**:
+  - Windows Machine(Victim Machine)
+  - Kali Linux(Attacker Machine)
 
 ## 🖼️Lab Diagram
 
-![1702225949455](https://github.com/0xrajneesh/Home-Lab/assets/40385860/06d5b583-1784-4f89-8bc3-f277f3d9d01c)
+![Home-Lab (3)](https://github.com/0xrajneesh/Home-Lab/assets/40385860/f7891499-7a73-4f03-99dc-df2a2720904c)
 
 
-## </> Setting up Wireshark Home-Lab
+## </> Setting up the Suricata Home-Lab
+
+- **Setting up Suricata IDS Server**
+  -  Import Ubuntu Server 22.04 OVA file in Virtualbox
+  -  Install Suricata IDS package
+ 
+- **Setting up Victim Server-1**
+  -  Import Ubuntu Server 22.04 OVA file in Virtualbox
+  -  Install DVWA(Damn Vulnerable Web Application)
+
+- **Setting up Victim Server-2**
+  -  Import Metasploitable 2 OVA Image
+ 
+- **Setting up Victim Server-3**
+  -  Import Typhoon OVA image
+ 
+  
+  
 
 - Download and Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)  
 - Download and import [Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines) in Virtualbox  
