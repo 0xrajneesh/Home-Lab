@@ -33,58 +33,16 @@ The goal of setting up a Suricata home-lab is to gain practical experience in de
 - **Setting up Victim Server-3**
   -  Import Typhoon OVA image
  
-  
-  
-
-- Download and Install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)  
-- Download and import [Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines) in Virtualbox  
-- Download and import [Windows 11](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/) in Virtualbox  
-- Download and install [Wireshark](https://www.wireshark.org/download.html) on Windows 11  
 
 
-## 🧑‍💻Excercises- Network Analysis
--  **ARP Packet Analysis**: Capture [ARP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/arp-storm.pcap) packets to monitor address resolution and detect network mapping activities.
--  **ICMP Packet Analysis**: Analyze [ICMP](https://wiki.wireshark.org/uploads/df619289f2986680173b8cd3035ca4ac/220614_ip_flags_google.pcapng) packets to troubleshoot network connectivity issues.  
--  **DHCP Packet Analysis**: Investigate [DHCP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dhcp.pcap) traffic to identify IP address leases and lease durations.  
--  **SMTP Traffic Analysis**: Monitor [SMTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/smtp.pcap) traffic to detect email communication and extract sender/receiver information.  
--  **FTP Traffic Analysis**: Capture [FTP](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/FTPv6-1.cap) packets to analyze file transfers and extract filenames.  
--  **DNS Traffic Analysis**: Analyze [DNS](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/dns-remoteshell.pcap) packets to identify domain lookups and resolve IP addresses.    
-- **HTTP Traffic Analysis**: Capture [HTTP](https://wiki.wireshark.org/uploads/27707187aeb30df68e70c8fb9d614981/http.cap) traffic and extract URLs visited.  
+## 🧑‍💻Excercises- Network-based attacks
+-  **Nmap Stealth Scan Detection**: Create a Suricata rule to detect TCP SYN packets sent to multiple ports within a short time frame, indicative of Nmap stealth scans.  
+-  **Nmap OS Fingerprinting Detection**: Develop a Suricata rule to detect ICMP echo requests and responses with specific TTL values, characteristic of Nmap OS fingerprinting activities.  
+-  **Nmap Service Version Detection Detection**: Formulate a Suricata rule to detect Nmap service version detection probes based on unique HTTP GET requests or TCP SYN/ACK packets.  
+-  **Metasploit Exploit Payload Detection**: Craft a Suricata rule to detect Metasploit exploit payload traffic based on unique signatures or payloads commonly used in exploits.  
+-  **Metasploit Reverse Shell Detection**: Develop a Suricata rule to detect Metasploit reverse shell connections by monitoring for outbound TCP connections to known attacker IP addresses.  
+-  **Metasploit Meterpreter Communication Detection**: Create a Suricata rule to detect Meterpreter communication activities by analyzing HTTP or TCP traffic with characteristic Meterpreter payloads.
+- **Metasploit Credential Harvesting Detection**: Formulate a Suricata rule to detect Metasploit credential harvesting activities by monitoring for specific LDAP or SMB traffic patterns indicative of credential theft.  
 
-
-## 🧑‍💻Excercises- Security Forensics
-- **SYN Scan**: Detect [SYN scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by identifying packets with SYN flag set and multiple consecutive SYN-ACK responses.  
-
--  **UDP Scan**: Identify [UDP scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with UDP destination ports and absence of corresponding responses or ICMP port unreachable messages.   
-
-- **TCP Connect Scan**: Recognize [TCP connect scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by observing TCP three-way handshake sequences.  
-
-- **ACK Scan**: Detect [ACK scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with only ACK flag set and no SYN or FIN flags.
-
-- **FIN Scan**: Identify [FIN scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by observing packets with only FIN flag set and absence of response packets or ICMP unreachable messages.  
-
-- **XMAS Scan**: Detect [XMAS scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with FIN, PSH, and URG flags set simultaneously and absence of corresponding responses.   
-
-- **NULL Scan**: Recognize [NULL scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with no TCP flags set and absence of response packets or ICMP unreachable messages.  
-
-- **TCP Window Scan**: Detect [TCP Window scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets with varying TCP window sizes indicating potential reconnaissance.  
-
-- **IDLE Scan**: Identify [Idle scan](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) by analyzing packets from a seemingly unrelated zombie host, observing indirect communication patterns.  
-
-- **Version Scan**: Recognize [Version detection](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip) scan by analyzing packets containing service banners or responses with version information.  
-
-- **DDoS attack**: Detect [DDoS attacks](https://wiki.wireshark.org/uploads/__moin_import__/attachments/SampleCaptures/NMap-Captures.zip ) by analyzing abnormal traffic patterns, such as a sudden surge in incoming packets from multiple sources targeting specific ports or services.  
-
-
-## 🧑‍💻Excercises- Malware Traffic Analysis
-- Examining [Emotet Infection](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-1-2021-01-06-Emotet-infection.pcap.zip) Traffic  
-
-- Examining Emotet with [Spambot traffic](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-2-2021-01-05-Emotet-with-spambot-traffic-part-1.pcap.zip)  
-- Examining Emotet with [Trickbot](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-4-2021-01-05-Emotet-infection-with-Trickbot.pcap.zip) pcap  
-
-- Analyzing Emotet Infection with [Qakbot](https://github.com/pan-unit42/wireshark-tutorial-Emotet-traffic/blob/main/Example-5-2020-08-18-Emotet-infection-with-Qakbot.pcap.zip) pcap
-
-
-## 💁‍♂️ Need Help
 
 
