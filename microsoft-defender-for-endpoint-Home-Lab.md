@@ -31,7 +31,8 @@ Microsoft Defender for Endpoint is a comprehensive endpoint security solution th
 - **Network Protection**: Conduct an email phishing attack with malicious link in Windows 11 machine from Kali Linux and observe how Microsoft Defender's network protection feature detects and blocks the malicious traffic.
 - **Live Response**: Utilize Microsoft Defender for Endpoint's live response feature to remotely investigate and respond to security incidents on the Windows 11 machine, such as collecting forensic data, terminating malicious processes, or isolating compromised devices.
 - **Deep Analysis**: Perform deep analysis of suspicious files or processes detected by Microsoft Defender for Endpoint using built-in tools or third-party analysis platforms, and explore advanced techniques for identifying indicators of compromise (IoCs) and understanding malware behavior.
-- **Advanced Hunting Queries**: Use the Microsoft Defender Security Center to create and execute advanced hunting queries to search for specific security events or suspicious activities on the Windows 11 machine.  
+- **Advanced Hunting Queries**: Use the Microsoft Defender Security Center to create and execute advanced hunting queries to search for specific security events or suspicious activities on the Windows 11 machine.
+- **Threat Intelligence Analytics**: Analyze the threat analytics provided by Microsoft Defender for Endpoint to identify trends, patterns, or anomalies in endpoint security events and telemetry data.  
 
 
 
