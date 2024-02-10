@@ -4,9 +4,14 @@ Welcome to the Home-Lab Repository, a curated collection of home-lab setups desi
 
 
 ## Contents
-- Splunk Home Lab 📊  
-- Wireshark Home Lab 📡  
-- Open Source IAM Home Lab 🔐  
+- Splunk SIEM Home Lab  
+- Wireshark Home Lab   
+- Open Source IAM Home Lab
+- Static Malware Analysis Home-lab
+- Suricata IDS Home-lab
+- Threat Hunting using Osquery Home-Lab
+- Wazuh Home-Lab
+- Microsoft Defender for Endpoint Home-Lab
 
 ## Contributing
 Contributions are welcome! If you have a home lab setup, exercises, or additional tools to add, please feel free to submit a pull request or open an issue.  
