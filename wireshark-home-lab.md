@@ -1,4 +1,4 @@
-# Wireshark Home_Lab
+# Wireshark Home-Lab
 
 ## ℹ️Overview
 
