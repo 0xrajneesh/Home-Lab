@@ -9,21 +9,20 @@ The goal of setting up a Suricata home-lab is to gain practical experience in de
 - **Hardware**:
   - Computer with at least 16GB RAM and dual-core processor
 - **VM/ISO Image**:
-  - Checkpoint Standalone ISO file
-  - Kali Linux OVA file
-  - Ubuntu Server 22.04 OVA file
-  - Windows 11 OVA file
+  - Windows Machine(Victim Machine)
+  - Kali Linux(Attacker Machine)
 
 ## 🖼️Lab Diagram
 
+![Home-Lab (3)](https://github.com/0xrajneesh/Home-Lab/assets/40385860/f7891499-7a73-4f03-99dc-df2a2720904c)
 
 
 
-## </> Setting up the Checkpoint Firewall Home-lab
+## </> Setting up the Suricata Home-Lab
 
-- **Checkpoint Firewall**
-  -  Download [Checkpint ISO image](https://twitter.com/rajneeshcyber/status/1636118233756610560)
-  -  Setting up [Checkpoint Gateway](https://sc1.checkpoint.com/documents/R81/WebAdminGuides/EN/CP_R81_Gaia_AdminGuide/Topics-GAG/Running-FTCW-in-Gaia-Portal.htm)
+- **Setting up Suricata IDS Server**
+  -  Import Ubuntu Server 22.04 OVA file in Virtualbox
+  -  Install Suricata IDS package
  
 - **Setting up Victim Server-1**
   -  Import Ubuntu Server 22.04 OVA file in Virtualbox
