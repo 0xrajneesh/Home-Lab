@@ -29,6 +29,17 @@ Keycloak is an open-source Identity and Access Management (IAM) solution aimed a
                           |             |
                           +-------------+
 
+## What will you learn?
+In this Open Source IAM Home-Lab, you'll master Keycloak and open-source IAM tools. Gain hands-on experience in:
+
+- Setting up and configuring IAM solutions
+- Implementing security measures like SSO and 2FA
+- Customizing login pages and extending functionality
+- Integrating LDAP, social login, and external systems
+- Managing access control and monitoring user activities
+- Implementing multi-tenancy and enhancing interoperability.
+
+
 ## </> Setting up Keycloak IAM
 
 - **Installation**: Use Docker for an easy setup. Follow the Keycloak [Docker Guide](https://www.keycloak.org/getting-started/getting-started-docker).  
